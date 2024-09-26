@@ -17,13 +17,12 @@ body {
     color: #2e2f42;
 }
 
-.menu-nav .link {
-    /* probably check and delete .menu-nav here */
+.menu-nav-list {
     color: #2e2f42;
 }
 
-.link:hover,
-.link:focus {
+.menu-nav-list:hover,
+.menu-nav-list:focus {
     color: #404bbf;
 }
 
@@ -36,14 +35,18 @@ body {
     color: #434455;
 }
 
-.page-header {}
+.contacts-list {
+    color: #434455;
+}
 
-.page-title {}
+.hero-title {
+    background-color: #2e2f42;
+}
 
 .hero {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -55,9 +58,9 @@ body {
 }
 
 .title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11111;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.12;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -85,7 +88,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-button {
+.my-button {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -96,8 +99,8 @@ button {
     font-family: "Roboto", sans-serif;
 }
 
-.button:hover,
-.button:focus {
+.my-button:hover,
+.my-button:focus {
     color: #404bbf;
 }
 
@@ -111,10 +114,6 @@ button {
     color: #4d5ae5;
 }
 
-span {
-    color: #2e2f42;
-}
-
 .page-footer {
     font-weight: 400;
     font-size: 16px;
@@ -124,6 +123,10 @@ span {
     background-color: #2E2F42;
 }
 
-.navy-part {
+.menu-nav .another-color {
     color: #2e2f42;
+}
+
+.page-footer .another-color {
+    color: #f4f4fd;
 }
