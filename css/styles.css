@@ -2,7 +2,7 @@ body {
 
     /* check default font-weight for element */
     /* text 400, headings 700 */
-    font-family: "Roboto", "Montserrat", "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -44,6 +44,7 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .page-header {}
@@ -60,25 +61,18 @@ address {
     background-color: #2E2F42;
 }
 
-h2 {
+.team-list {
+    background: #f4f4fd;
+}
+
+.heading {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.team-list {
-    background: #f4f4fd;
+    text-transform: capitalize;
 }
 
 .text {}
@@ -92,25 +86,21 @@ h3 {
 
 button {
     cursor: pointer;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07143;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+.button:hover,
+.button:focus {
+    color: #404bbf;
 }
 
-.logo {
+.logo1 {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -120,6 +110,20 @@ h1 {
     color: #4d5ae5;
 }
 
+.logo2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+span {
+    color: #2e2f42;
+}
+
 .page-footer {
     font-weight: 400;
     font-size: 16px;
@@ -127,16 +131,4 @@ h1 {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2E2F42;
-}
-
-.iris-part {
-    color: #4d5ae5;
-}
-
-.navy-part {
-    color: #2E2F42;
-}
-
-.cloud-part {
-    color: #F4F4FD;
 }
