@@ -1,7 +1,5 @@
 body {
 
-    /* check default font-weight for element */
-    /* text 400, headings 700 */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -11,7 +9,6 @@ body {
     color: #434455;
 }
 
-/* delete duplicate parameters in every selector*/
 .menu-nav {
     font-weight: 500;
     font-size: 16px;
@@ -25,26 +22,18 @@ body {
     color: #2e2f42;
 }
 
-.link {
-    text-decoration: none;
-}
-
-/* choose between link and a tags */
-a {
-    text-decoration: none;
-}
-
 .link:hover,
 .link:focus {
     color: #404bbf;
 }
 
-address {
+.contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    color: #434455;
 }
 
 .page-header {}
@@ -65,7 +54,7 @@ address {
     background: #f4f4fd;
 }
 
-.heading {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -75,9 +64,21 @@ address {
     text-transform: capitalize;
 }
 
-.text {}
-
 .features-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfoilio-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -100,21 +101,11 @@ button {
     color: #404bbf;
 }
 
-.logo1 {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-}
-
-.logo2 {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -131,4 +122,8 @@ span {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2E2F42;
+}
+
+.navy-part {
+    color: #2e2f42;
 }
