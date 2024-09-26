@@ -35,8 +35,13 @@ body {
     color: #434455;
 }
 
-.contacts-list {
+.contacts-item {
     color: #434455;
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+    color: #404bbf;
 }
 
 .hero-title {
@@ -58,16 +63,24 @@ body {
 }
 
 .title {
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 36px;
     line-height: 1.12;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize;
 }
 
 .features-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.features-list-detailed {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -75,10 +88,12 @@ body {
 }
 
 .team-list {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 
 .portfoilio-list {
@@ -101,7 +116,7 @@ body {
 
 .my-button:hover,
 .my-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .logo {
