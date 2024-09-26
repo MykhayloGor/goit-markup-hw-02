@@ -87,12 +87,39 @@ body {
     letter-spacing: 0.02em;
 }
 
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
 .team-list {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+    background-color: #FFFFFF;
+}
+
+.team-list-detailed {
+    font-size: 16px;
+}
+
+.title-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
@@ -101,6 +128,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.portfolio-list-detailed {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .my-button {
@@ -136,6 +171,14 @@ body {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2E2F42;
+}
+
+.page-footer-para {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 .menu-nav .another-color {
